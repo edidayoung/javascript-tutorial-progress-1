@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CoinFlip</title>
+     <style>
+      
+    </style>
+
+  </head>
+
+  <body>
+    <p>
+      <button onclick="
+        let coin = Math.random() < 0.5 ? 'Heads' : 'Tails';
+        let guess = '';
+
+        if(coin === 'Heads') {
+          guess = 'You Win!';
+        } else {
+          guess = 'You Lose!';
+        }
+        alert(`You Guessed Heads. The coin is ${coin}. ${guess}`)
+        ">Heads</button>
+
+      <button onclick="
+        let coin = Math.random() < 0.5 ? 'Heads' : 'Tails';
+        let guess = '';
+
+        if(coin === 'Tails') {
+          guess = 'You Win!';
+        } else {
+          guess = 'You Lose!';
+        }
+        alert(`You Guessed Tails. The coin is ${coin}. ${guess}`)
+        ">Tails</button>
+    </p>
+    <script>
+
+    </script>
+  </body>
+</html>
+
