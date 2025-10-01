@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Shizuru&display=swap');
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.todo-grid, 
+.input-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+.input-grid {
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+
+.name-input , .due-date-input {
+  padding: 5px;
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.add-btn {
+  background-color: rgb(80, 134, 80);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background-color: rgb(200, 80, 80);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
